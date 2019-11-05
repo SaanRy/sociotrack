@@ -4,3 +4,27 @@ $darckGreen: #147A42;
 $gray:#D8D8D8;
 $Green:#1CAF5E;
 $lime:#B8E986;
+
+.facebook {
+    background: linear-gradient(180deg, #39579A 0%, #2C4479 97.23%);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.twitter {
+    background: linear-gradient(180deg, #059FF5 0%, #059FC3 100%), #059FF5;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    // #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%
+}
+
+.linkedin {
+    background: linear-gradient(180deg, #007EBB 0%, #007E9D 98.51%);
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+
+}

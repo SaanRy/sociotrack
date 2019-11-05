@@ -1,0 +1,28 @@
+.media {
+    &__controls {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__data {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+
+        width: 25%;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+}
