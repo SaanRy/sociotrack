@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    display: flex;
+
+    &__search {
+        width: 100%;
+    }
+
+    &__bell {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+}

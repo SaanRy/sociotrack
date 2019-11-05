@@ -1,0 +1,90 @@
+.sidebar {
+    width: 20%;
+    background-color: #32BE7F;
+    background: linear-gradient(180deg, #27B983 -18.15%, #91E857 266.75%);
+    box-shadow: inset -1px 0px 0px rgba(28, 175, 94, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    &__logo {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px 0 25px;
+
+    }
+
+    &__content {}
+
+    &__footer {
+        width: 100%;
+    }
+
+    &__nav {
+        padding: 0 20px;
+
+        &Item {
+            padding: 16px 23px;
+            border-radius: 5px;
+
+
+
+
+        }
+
+        &Link {
+            color: $white;
+        }
+    }
+}
+
+
+.selected {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.user {
+    display: flex;
+    padding: 39px 20px;
+
+
+    &__avatar {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        color: $white;
+    }
+
+    &__count {
+        font-size: 12px;
+        color: $darckGreen;
+    }
+}
+
+
+.help {
+    width: 100%;
+    text-align: center;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        width: 33%;
+        height: 20px;
+    }
+
+}
