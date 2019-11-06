@@ -1,4 +1,19 @@
 .media {
+    padding: 0 7.813rem;
+
+    &__header {
+        margin-bottom: 1.5rem;
+    }
+
+    &__dateList {
+        font-size: 1rem;
+    }
+
+    &__login {
+        font-size: 1.5rem;
+        color: $Green;
+    }
+
     &__controls {
         display: flex;
         justify-content: space-between;
@@ -12,16 +27,90 @@
     &__list {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     &__item {
 
-        width: 25%;
-        padding: 1em;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 1.563rem;
     }
 
+    &__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 12.5rem;
+        height: 12.5rem;
+        border-radius: 10px;
+        color: $white;
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
+        margin-bottom: 0.625rem;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 1.25rem;
+        left: 1.25rem;
+    }
+
+    &__title {
+        font-family: $fontOswald;
+        font-size: 2.625rem;
+        padding-left: 1.125rem;
+
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 0.6875rem;
+
+    }
+
+    &__delta {
+        display: flex;
+        align-items: baseline;
+        position: absolute;
+        bottom: 1.25rem;
+        right: 1.25rem;
+
+        &__Count {
+            margin-right: 0.3125rem;
+        }
+    }
+
+    &__user {
+        display: flex;
+
+    }
+
+    &__avatar {
+        margin-right: .625rem;
+        border-radius: 4px;
+    }
+
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.8125rem;
+        color: $black;
+    }
+
+    &__name {
+        opacity: 0.5;
+
+    }
+
+    &__id {
+        width: 9.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
 
 

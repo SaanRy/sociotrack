@@ -4,17 +4,16 @@ $darckGreen: #147A42;
 $gray:#D8D8D8;
 $Green:#1CAF5E;
 $lime:#B8E986;
+$devider: rgba(0, 0, 0, 0.07);
 
 .facebook {
     background: linear-gradient(180deg, #39579A 0%, #2C4479 97.23%);
-    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
-    border-radius: 10px;
+
 }
 
 .twitter {
     background: linear-gradient(180deg, #059FF5 0%, #059FC3 100%), #059FF5;
-    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
-    border-radius: 10px;
+
 }
 
 .instagram {
@@ -24,7 +23,21 @@ $lime:#B8E986;
 
 .linkedin {
     background: linear-gradient(180deg, #007EBB 0%, #007E9D 98.51%);
-    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.03);
-    border-radius: 10px;
 
+}
+
+.youtube {
+    background: linear-gradient(180deg, #CE1312 0%, #B01312 100%);
+}
+
+.snapchat {
+    background: linear-gradient(180deg, #FFFE00 0%, #F3F200 96.43%);
+}
+
+.gPluss {
+    background: linear-gradient(180deg, #F93F2D 0%, #C73F2D 100%);
+}
+
+.vine {
+    background: linear-gradient(180deg, #00B687 0%, #008E87 100%);
 }
