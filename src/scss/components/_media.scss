@@ -5,8 +5,44 @@
         margin-bottom: 1.5rem;
     }
 
-    &__dateList {
-        font-size: 1rem;
+
+    &__btn {
+        font-size: 0.875rem;
+        padding: 1rem 0.75rem;
+        background-color: transparent;
+        color: $Green;
+        border: 1px solid $Green;
+        border-radius: 4px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    &__date {
+        &List {
+            font-size: 1rem;
+            display: flex;
+
+        }
+
+        &item {
+            margin-right: 2.063rem;
+
+            &.active {
+                &::after {
+                    display: block;
+                    content: "";
+                    width: 100%;
+                    border-bottom: 2px solid $Green;
+                margin-top: 0.5rem;
+                }
+            }
+
+            & a {
+                color: $black;
+            }
+
+        }
+
     }
 
     &__login {
@@ -31,7 +67,7 @@
     }
 
     &__item {
-
+        flex: 0 0 25%;
         display: flex;
         flex-direction: column;
         margin-bottom: 1.563rem;
@@ -54,6 +90,7 @@
         position: absolute;
         top: 1.25rem;
         left: 1.25rem;
+        font-size: 1.25rem;
     }
 
     &__title {

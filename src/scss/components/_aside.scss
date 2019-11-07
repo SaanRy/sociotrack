@@ -1,11 +1,13 @@
 .sidebar {
-    width: 15rem;
+    //width: 15rem;
     background-color: #32BE7F;
     background: linear-gradient(180deg, #27B983 -18.15%, #91E857 266.75%);
     box-shadow: inset -1px 0px 0px rgba(28, 175, 94, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 0 0 15rem;
+   
 
 
     &__logo {
