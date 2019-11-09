@@ -1,5 +1,4 @@
 .sidebar {
-    //width: 15rem;
     background-color: #32BE7F;
     background: linear-gradient(180deg, #27B983 -18.15%, #91E857 266.75%);
     box-shadow: inset -1px 0px 0px rgba(28, 175, 94, 0.1);
@@ -7,7 +6,6 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 0 0 15rem;
-   
 
 
     &__logo {
@@ -25,6 +23,11 @@
         &Item {
             padding: 1rem 1.438rem;
             border-radius: 5px;
+
+            &:hover {
+                background-color: $darckGreen;
+                box-shadow: inset 0 0 0 2px $Green;
+            }
 
 
 
@@ -73,8 +76,8 @@
     }
 }
 
-
 .help {
+
 
     &__list {
         text-align: center;
@@ -99,10 +102,28 @@
         width: 33%;
         font-size: 0.75rem;
         padding-bottom: 0.875rem;
+
+        &:hover:after {
+            display: block;
+            content: "";
+            width: 100%;
+            border-bottom: 2px solid $Green;
+            margin-top: 0.5rem;
+        }
     }
 
     &__link {
         color: $darckGreen;
     }
 
+}
+
+
+@media screen and (max-width: 1290px) {
+    .help {
+        position: fixed;
+        bottom: 1.25rem;
+        left: 1.25rem;
+        padding: 0;
+    }
 }

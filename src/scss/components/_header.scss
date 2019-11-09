@@ -5,7 +5,10 @@
 
     &__input {
         width: 100%;
-        height: 4.625rem;
+        height: 4.625rem; 
+        border: none;
+        padding-left: 2rem;
+        font-size: 2rem;
     }
 
     &__btn {

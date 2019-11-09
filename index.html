@@ -33,9 +33,7 @@
 
                 <nav class="sidebar__nav">
                     <ul class="sidebar__navList">
-                        <li class="sidebar__navItem selected">
-                            <a class="sidebar__navLink" href="">Dashboard</a>
-                        </li>
+                        <li class="sidebar__navItem selected"><a class="sidebar__navLink" href="">Dashboard</a></li>
                         <li class="sidebar__navItem"><a class="sidebar__navLink" href="">Social Feed</a></li>
                         <li class="sidebar__navItem"><a class="sidebar__navLink" href="">Invite Friends</a></li>
                         <li class="sidebar__navItem"><a class="sidebar__navLink" href="">Settings</a></li>
@@ -75,7 +73,7 @@
                 <header class="media__header">
                     <div class="media__controls">
                         <a href="" class="media__login">@abhisek.das</a>
-                        <button class="media__btn">+ Add Social Profile</button>
+                        <button class="media__btn js_modal">+ Add Social Profile</button>
                     </div>
                     <ul class="media__dateList">
                         <li class="media__dateitem active"><a href="">Last day</a></li>
@@ -169,7 +167,7 @@
 
                             <div class="media__delta">
                                 <p class="media__deltaCount">+39</p>
-                                <img  src="build/img/arrow-up.svg" alt="" class="mediad__deltaSymbol">
+                                <img src="build/img/arrow-up.svg" alt="" class="mediad__deltaSymbol">
                             </div>
 
                         </a>
@@ -296,9 +294,28 @@
         </div>
     </div>
 
+
+    <div class="modal js-modal">
+        <div class="modal__box">
+            <h3 class="modal__title">Add Social Profile</h3>
+            <p class="modal__subTitle">Add new social profile for tracking</p>
+            <label for="#addMedia" class="modal__label">URL</label>
+            <form action="submit" class="modal__form">
+                <input type="text" name="" id="addMedia" placeholder="https://twitter.com/username"
+                    class="modal__input">
+                <input type="button" value="Lookup" class="modal__btn">
+            </form>
+            <a href="" class="modal__close js_closeModal"><i class="fas fa-times"></i></a>
+        </div>
+    </div>
     <!-- JavaScript File -->
     <script src="https://kit.fontawesome.com/0b8776619d.js" crossorigin="anonymous"></script>
     <script src="build/main.js"></script>
+
+
 </body>
+
+
+
 
 </html>

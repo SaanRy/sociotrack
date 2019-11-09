@@ -15,7 +15,16 @@
         border-radius: 4px;
         text-decoration: none;
         text-align: center;
+
+        &:hover {
+            background-color: $Green;
+            color: $white;
+        }
+
+
     }
+
+
 
     &__date {
         &List {
@@ -41,6 +50,13 @@
                 color: $black;
             }
 
+            &:hover:after {
+                display: block;
+                content: "";
+                width: 100%;
+                border-bottom: 2px solid $Green;
+                margin-top: 0.5rem;
+            }
         }
 
     }
@@ -58,6 +74,7 @@
     &__data {
         display: flex;
         flex-direction: row;
+
     }
 
     &__list {
@@ -71,6 +88,7 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 1.563rem;
+        padding: 0 0.9rem;
     }
 
     &__link {
@@ -161,4 +179,13 @@
 
 
 
+}
+
+@media screen and (max-width: 800px) {
+    .media__btn {
+        width: 2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
